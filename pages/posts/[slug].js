@@ -1,6 +1,8 @@
 import React from "react";
 
-const [slug] = () => {
+import { getPosts, getPostDetails } from "@/services";
+
+const PostDetails = () => {
   return <div>[slug]</div>;
 };
 
