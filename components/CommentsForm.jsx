@@ -71,6 +71,7 @@ const CommentsForm = ({ slug }) => {
           className="py-2 px-4 outline-none w-full rounded-lg focus:ring-2 focus:ring-gray-200 bg-gray-100 text-gray-700"
           placeholder="Name"
           name="name"
+          required
         />
         <input
           type="text"
@@ -78,6 +79,7 @@ const CommentsForm = ({ slug }) => {
           className="py-2 px-4 outline-none w-full rounded-lg focus:ring-2 focus:ring-gray-200 bg-gray-100 text-gray-700"
           placeholder="Email"
           name="email"
+          required
         />
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
