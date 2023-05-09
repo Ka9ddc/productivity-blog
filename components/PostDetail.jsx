@@ -68,7 +68,7 @@ const PostDetail = ({ post }) => {
           className="object-top h-full w-full rounded-xl"
         />
       </div>
-      <div className="border-indigo-600 shadow-2xl border-t-[3px] border-b-[1px] rounded-t-4xl rounded-b-4xl bg-white relative bottom-24 mx-12 lg:px-0">
+      <div className="border-indigo-600 shadow-2xl px-2 border-t-[3px] border-b-[1px] rounded-t-4xl rounded-b-4xl bg-white relative bottom-24 mx-12 lg:px-1 sm:px-1 max-[425px]:mx-4 max-[425px]:bottom-16">
         <h1 className="text-center mb-8 text-3xl font-semibold mt-12">
           {post.title}
         </h1>
