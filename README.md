@@ -17,8 +17,6 @@
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets](#snippets)
-6. 🔗 [Links](#links)
 7. 🚀 [More](#more)
 
 ## <a name="introduction">🤖 Introduction</a>
@@ -36,25 +34,26 @@ A personal blog application that focuses on productivity and mental health. The 
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Onboarding Screen**: Engaging graphics and clear instructions welcome users to the app.
 
-👉 **Robust Authentication & Authorization System**: Secure email login safeguards user accounts.
+👉 **Engaging Project Overview**: Introduction with engaging graphics and a clear overview of project functionalities and technologies used.
 
-👉 **Dynamic Home Screen with Animated Flat List**: Smoothly animated flat list showcases the latest videos for seamless browsing.
+👉 **Code Setup & Tooling**: Project setup with Next.js, Tailwind CSS and GraphCMS, including the basic structure and essential tools.
 
-👉 **Pull-to-Refresh Functionality**: Users can refresh content with a simple pull gesture for up-to-date information.
+👉 **Dynamic Data Fetching**: Using GraphQL to dynamically retrieve data from GraphCMS, including queries for posts and categories.
 
-👉 **Full-Text Search Capability**: Efficiently search through videos with real-time suggestions and instant results.
+👉 **Dynamic Home Screen**: Dynamic home screen with an animated list showing the latest and featured posts for fluid navigation.
 
-👉 **Tab Navigation**: Navigate between sections like Home, Search, and Profile with ease using tab navigation.
+👉 **Category Navigation**: Easy navigation between categories, allowing users to view posts by category with an intuitive interface.
 
-👉 **Post Creation Screen for Uploading Media**: Upload video and image posts directly from the app with integrated media selection.
+👉 **Rich Article Details**: Detailed display of articles, including Markdown rendering and author information for a complete experience.
+
+👉 **User Comments Section**: Implementation of a comments system, allowing users to create and view comments directly on articles.
 
 👉 **Profile Screen with Detailed Insights**: View account details and activity, including uploaded videos and follower count, for a personalized experience.
 
-👉 **Responsiveness**: Smooth performance and adaptability across various devices and screen sizes for a consistent user experience.
+👉 **Advanced React and Next.js Practices**: Best practices for developing with React and Next.js, including performance optimization and server-side rendering.
 
-👉 **Animations**: Dynamic animations using the Animatable library to enhance user interaction and engagement throughout the app's UI.
+👉 **Modern UI with Tailwind CSS**: Creation of modern and responsive interfaces using Tailwind CSS, with an emphasis on componentization and reuse of styles.
 
 and many more, including code architecture and reusability 
 
@@ -73,8 +72,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/aora.git
-cd aora
+git clone https://github.com/Ka9ddc/productivity-blog.git
+cd productivity-blog
 ```
 **Installation**
 
@@ -84,35 +83,32 @@ Install the project dependencies using npm:
 npm install
 ```
 
+If necessary update the libraries.
+
 **Running the Project**
 
 ```bash
-npm start
+npm run dev
 ```
 
-**Expo Go**
+**Build and production**
 
-Download the [Expo Go](https://expo.dev/go) app onto your device, then use it to scan the QR code from Terminal and run.
+```bash
+npm run build
+```
+
+```bash
+npm run start
+```
 
 ## <a name="more">🚀 More</a>
 
-**Advance your skills with Next.js 14 Pro Course**
+**See more of my work at my portfolio**
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+Did you like this project? Come and learn more about my work in my portfolio. There are other well-built and documented projects like this, using great technologies and cutting-edge tools. Give it a go!
 
-<a href="https://jsmastery.pro/next14" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/557837ce-f612-4530-ab24-189e75133c71" alt="Project Banner">
-</a>
-
-<br />
-<br />
-
-**Accelerate your professional journey with the Expert Training program**
-
-And if you're hungry for more than just a course and want to understand how we learn and tackle tech challenges, hop into our personalized masterclass. We cover best practices, different web skills, and offer mentorship to boost your confidence. Let's learn and grow together!
-
-<a href="https://www.jsmastery.pro/masterclass" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/fed352ad-f27b-400d-9b8f-c7fe628acb84" alt="Project Banner">
+<a href="https://https://ryan-micael.vercel.app" target="_blank">
+<img src="https://media.discordapp.net/attachments/1245814333263314995/1257434343861649519/Designer_4.jpeg?ex=6684647d&is=668312fd&hm=4fe0784c4dc96b897273f5d8a2d7604dbebfd6ec91778bd2ae3599831f66fcf7&=&format=webp&width=871&height=398" alt="Ryan Banner">
 </a>
 
 #
