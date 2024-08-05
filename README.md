@@ -107,8 +107,6 @@ npm run start
 
 Did you like this project? Come and learn more about my work in my portfolio. There are other well-built and documented projects like this, using great technologies and cutting-edge tools. Give it a go!
 
-<a href="https://ryan-micael.vercel.app" target="_blank">
-<img src="https://media.discordapp.net/attachments/1245814333263314995/1257434343861649519/Designer_4.jpeg?ex=6684647d&is=668312fd&hm=4fe0784c4dc96b897273f5d8a2d7604dbebfd6ec91778bd2ae3599831f66fcf7&=&format=webp&width=871&height=398" alt="Ryan Banner">
-</a>
+<a href="https://ryan-micael.vercel.app" target="_blank">Portfolio</a>
 
 #
